@@ -29,6 +29,7 @@ export class CheckoutProgressBar extends React.PureComponent {
                                     { ' ' }
                                 </div>
                             </div>
+                            <div className="step-name"><p>{ item.url.slice(1,) }</p></div>
                     </div>
                 )) }
             </div>
